@@ -1,0 +1,59 @@
+
+.firstContainer .menu{
+    display:flex 
+}
+
+
+.firstContainer{
+    background-color:rgb(61, 190,255) ;
+    justify-content: space-between;
+    height: 600px;
+}
+.logo{
+    color:white;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 20px;
+}
+.menu >ul >li {
+    color:white;
+    display: inline;
+    padding-left : 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 5px;
+    margin-left: 70px;
+}
+
+.menu{
+    padding: 20px;
+}
+
+ul {
+    list-style: none; 
+}
+
+
+.firstContainer{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+button{
+    font-size: 20px;
+    border-radius: 30px;
+    padding: 10px;
+    outline: none;
+    background-color:white; /* Green */
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.secondContainer{
+    display: flex;
+}
